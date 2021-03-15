@@ -1,0 +1,16 @@
+@font-face {
+	font-family: adventure;
+	src: url('./Adventure.otf');
+}
+.streetname{
+    position: absolute;
+    bottom: 0.1%;
+    right: 44%;
+    text-align: right;
+    padding: 6px;
+    font-family: adventure; --original-adventure
+    font-weight: bold;
+    color: rgb(237, 224, 224);
+    font-size: 15px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
